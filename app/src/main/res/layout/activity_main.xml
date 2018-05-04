@@ -23,7 +23,8 @@
             android:layout_marginBottom="4dp"
             android:background="#fff"
             android:layout_marginLeft="24dp"
-            android:layout_marginRight="24dp">
+            android:layout_marginRight="24dp"
+            android:onClick="SummaryPortClick">
 
                 <View
                     android:layout_width="0dp"
