@@ -10,6 +10,8 @@ import com.example.avion.funciona.Fragments.MenuFragment;
 
 public class MainActivity extends AppCompatActivity implements MenuFragment.OnFragmentInteractionListener {
 
+    int probandoestamierda;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

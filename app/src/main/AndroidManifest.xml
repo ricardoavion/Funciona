@@ -19,6 +19,7 @@
         <activity
             android:name=".Stock"
             android:label="@string/title_activity_stock" />
+        <activity android:name=".AddItemStock"></activity>
     </application>
 
 </manifest>

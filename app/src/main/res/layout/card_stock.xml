@@ -19,7 +19,8 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:src="@drawable/cart"/>
+            android:src="@drawable/cart"
+            android:paddingLeft="8dp"/>
 
         <RelativeLayout
             android:layout_width="0dp"
@@ -45,7 +46,7 @@
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="#fff"
-                android:background="@color/colorAccent"
+                android:background="@color/colorSecondaryDark"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"/>
             <TextView
@@ -106,6 +107,7 @@
                 android:layout_marginLeft="28dp"
                 android:textColor="#000"/>
 
+
             <TextView
                 android:id="@+id/cost"
                 android:layout_width="wrap_content"
@@ -116,7 +118,12 @@
                 android:textSize="12sp"
                 android:layout_marginLeft="8dp"
                 android:textColor="#000"/>
-
+            <!--
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/plus"/>
+                -->
         </RelativeLayout>
     </LinearLayout>
 
